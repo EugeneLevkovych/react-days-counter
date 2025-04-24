@@ -1,7 +1,6 @@
 export default function Counter({ count, setCount, step }) {
   const date = new Date();
   date.setDate(date.getDate() + count);
-  console.log(date);
 
   return (
     <div>
